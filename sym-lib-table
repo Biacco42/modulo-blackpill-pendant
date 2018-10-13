@@ -1,5 +1,3 @@
 (sym_lib_table
-  (lib (name TRRS)(type Legacy)(uri /home/biacco42/Documents/project/keyboard/modulo/pcb/pendant/library/TRRS.lib)(options "")(descr ""))
-  (lib (name BlackPill)(type Legacy)(uri /home/biacco42/Documents/project/keyboard/modulo/pcb/pendant/library/BlackPill.lib)(options "")(descr ""))
-  (lib (name STLinkPin)(type Legacy)(uri /home/biacco42/Documents/project/keyboard/modulo/pcb/pendant/library/STLinkPin.lib)(options "")(descr ""))
+  (lib (name BlackPill)(type Legacy)(uri ${KIPRJMOD}/library/BlackPill.lib)(options "")(descr ""))
 )
