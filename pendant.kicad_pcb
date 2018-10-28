@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.1-33cea8e~66~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.1-33cea8e~68~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -58,11 +58,12 @@
     (pad_size 1.5 1.5)
     (pad_drill 0.6)
     (pad_to_mask_clearance 0)
+    (solder_mask_min_width 0.25)
     (aux_axis_origin 118.11 135.89)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
-      (usegerberextensions true)
+      (layerselection 0x010f0_ffffffff)
+      (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
@@ -344,7 +345,7 @@
   (segment (start 138.43 81.07) (end 141.815001 84.455001) (width 0.2) (layer B.Cu) (net 6))
   (segment (start 138.43 69.85) (end 138.43 81.07) (width 0.2) (layer B.Cu) (net 6))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5BCDABAB) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5BD56CA3) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -479,7 +480,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5BCDABA8) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5BD56CA0) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
