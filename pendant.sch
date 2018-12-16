@@ -185,17 +185,6 @@ F 3 "~" H 1500 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR09
-U 1 1 5C1630AE
-P 3800 2500
-F 0 "#PWR09" H 3800 2350 50  0001 C CNN
-F 1 "VCC" H 3817 2673 50  0000 C CNN
-F 2 "" H 3800 2500 50  0001 C CNN
-F 3 "" H 3800 2500 50  0001 C CNN
-	1    3800 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R3
 U 1 1 5C1630EE
 P 3800 2650
@@ -210,17 +199,6 @@ Wire Wire Line
 	3800 2800 3600 2800
 Text GLabel 3600 2800 1    50   Input ~ 0
 SCL1
-$Comp
-L power:VCC #PWR07
-U 1 1 5C1631FC
-P 2900 2500
-F 0 "#PWR07" H 2900 2350 50  0001 C CNN
-F 1 "VCC" H 2917 2673 50  0000 C CNN
-F 2 "" H 2900 2500 50  0001 C CNN
-F 3 "" H 2900 2500 50  0001 C CNN
-	1    2900 2500
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R1
 U 1 1 5C163202
@@ -237,17 +215,6 @@ Wire Wire Line
 Text GLabel 2700 2800 1    50   Input ~ 0
 SDA1
 $Comp
-L power:VCC #PWR010
-U 1 1 5C1632C1
-P 3800 3800
-F 0 "#PWR010" H 3800 3650 50  0001 C CNN
-F 1 "VCC" H 3817 3973 50  0000 C CNN
-F 2 "" H 3800 3800 50  0001 C CNN
-F 3 "" H 3800 3800 50  0001 C CNN
-	1    3800 3800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R4
 U 1 1 5C1632C7
 P 3800 3950
@@ -263,17 +230,6 @@ Wire Wire Line
 Text GLabel 3600 4100 1    50   Input ~ 0
 SCL2
 $Comp
-L power:VCC #PWR08
-U 1 1 5C1632CF
-P 2900 3800
-F 0 "#PWR08" H 2900 3650 50  0001 C CNN
-F 1 "VCC" H 2917 3973 50  0000 C CNN
-F 2 "" H 2900 3800 50  0001 C CNN
-F 3 "" H 2900 3800 50  0001 C CNN
-	1    2900 3800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R2
 U 1 1 5C1632D5
 P 2900 3950
@@ -288,4 +244,12 @@ Wire Wire Line
 	2900 4100 2700 4100
 Text GLabel 2700 4100 1    50   Input ~ 0
 SDA2
+Text GLabel 2900 2500 1    50   Input ~ 0
+3V3
+Text GLabel 3800 2500 1    50   Input ~ 0
+3V3
+Text GLabel 3800 3800 1    50   Input ~ 0
+3V3
+Text GLabel 2900 3800 1    50   Input ~ 0
+3V3
 $EndSCHEMATC
