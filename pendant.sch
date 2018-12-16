@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:pendant-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -16,41 +17,41 @@ $EndDescr
 $Comp
 L BlackPill:BlackPillSymple U1
 U 1 1 5BC1C845
-P 3600 2850
-F 0 "U1" H 3600 4215 50  0000 C CNN
-F 1 "BlackPillSymple" H 3600 4124 50  0000 C CNN
-F 2 "library:BlackPillSimple" H 3600 700 50  0001 C CNN
-F 3 "" H 3600 700 50  0001 C CNN
-	1    3600 2850
+P 5450 3200
+F 0 "U1" H 5450 4565 50  0000 C CNN
+F 1 "BlackPillSymple" H 5450 4474 50  0000 C CNN
+F 2 "library:BlackPillSimple" H 5450 1050 50  0001 C CNN
+F 3 "" H 5450 1050 50  0001 C CNN
+	1    5450 3200
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4150 2250
-NoConn ~ 4150 2350
-NoConn ~ 4150 2450
-NoConn ~ 4150 2550
-NoConn ~ 4150 2650
-NoConn ~ 4150 2750
-NoConn ~ 4150 2850
-NoConn ~ 4150 2950
-NoConn ~ 4150 3050
-NoConn ~ 4150 3150
-NoConn ~ 4150 3250
-NoConn ~ 4150 3350
-NoConn ~ 4150 3450
-NoConn ~ 4150 3550
-NoConn ~ 3050 3250
-NoConn ~ 3050 3150
-NoConn ~ 3050 3050
-NoConn ~ 3050 2950
-NoConn ~ 3050 2850
-NoConn ~ 3050 2750
-NoConn ~ 3050 2650
-NoConn ~ 3050 2550
-NoConn ~ 3050 2450
-NoConn ~ 3050 2350
-NoConn ~ 3050 2250
-NoConn ~ 3050 2150
-NoConn ~ 3050 2050
+NoConn ~ 6000 2600
+NoConn ~ 6000 2700
+NoConn ~ 6000 2800
+NoConn ~ 6000 2900
+NoConn ~ 6000 3000
+NoConn ~ 6000 3100
+NoConn ~ 6000 3200
+NoConn ~ 6000 3300
+NoConn ~ 6000 3400
+NoConn ~ 6000 3500
+NoConn ~ 6000 3600
+NoConn ~ 6000 3700
+NoConn ~ 6000 3800
+NoConn ~ 6000 3900
+NoConn ~ 4900 3600
+NoConn ~ 4900 3500
+NoConn ~ 4900 3400
+NoConn ~ 4900 3300
+NoConn ~ 4900 3200
+NoConn ~ 4900 3100
+NoConn ~ 4900 3000
+NoConn ~ 4900 2900
+NoConn ~ 4900 2800
+NoConn ~ 4900 2700
+NoConn ~ 4900 2600
+NoConn ~ 4900 2500
+NoConn ~ 4900 2400
 $Comp
 L power:VCC #PWR01
 U 1 1 5BC1C972
@@ -98,57 +99,35 @@ $EndComp
 $Comp
 L power:GND #PWR06
 U 1 1 5BC1CC6F
-P 4150 3650
-F 0 "#PWR06" H 4150 3400 50  0001 C CNN
-F 1 "GND" H 4155 3477 50  0000 C CNN
-F 2 "" H 4150 3650 50  0001 C CNN
-F 3 "" H 4150 3650 50  0001 C CNN
-	1    4150 3650
+P 6000 4000
+F 0 "#PWR06" H 6000 3750 50  0001 C CNN
+F 1 "GND" H 6005 3827 50  0000 C CNN
+F 2 "" H 6000 4000 50  0001 C CNN
+F 3 "" H 6000 4000 50  0001 C CNN
+	1    6000 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 5BC1CC94
-P 3050 3650
-F 0 "#PWR05" H 3050 3400 50  0001 C CNN
-F 1 "GND" H 3055 3477 50  0000 C CNN
-F 2 "" H 3050 3650 50  0001 C CNN
-F 3 "" H 3050 3650 50  0001 C CNN
-	1    3050 3650
+P 4900 4000
+F 0 "#PWR05" H 4900 3750 50  0001 C CNN
+F 1 "GND" H 4905 3827 50  0000 C CNN
+F 2 "" H 4900 4000 50  0001 C CNN
+F 3 "" H 4900 4000 50  0001 C CNN
+	1    4900 4000
 	1    0    0    -1  
 $EndComp
-Text GLabel 4150 2050 2    50   Input ~ 0
+Text GLabel 6000 2400 2    50   Input ~ 0
 SDA2
-Text GLabel 4150 2150 2    50   Input ~ 0
+Text GLabel 6000 2500 2    50   Input ~ 0
 SCL2
-Text GLabel 3050 3350 0    50   Input ~ 0
+Text GLabel 4900 3700 0    50   Input ~ 0
 SCL1
-Text GLabel 3050 3450 0    50   Input ~ 0
+Text GLabel 4900 3800 0    50   Input ~ 0
 SDA1
-Text GLabel 3050 3550 0    50   Input ~ 0
+Text GLabel 4900 3900 0    50   Input ~ 0
 3V3
-$Comp
-L Connector:AudioJack4_Ground J1
-U 1 1 5BC1CE18
-P 1500 2600
-F 0 "J1" H 1466 2942 50  0000 C CNN
-F 1 "AudioJack4_Ground" H 1466 2851 50  0000 C CNN
-F 2 "library:TRRS_SMD_PJ320" H 1500 2600 50  0001 C CNN
-F 3 "~" H 1500 2600 50  0001 C CNN
-	1    1500 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack4_Ground J2
-U 1 1 5BC1CEFE
-P 1500 3850
-F 0 "J2" H 1466 4192 50  0000 C CNN
-F 1 "AudioJack4_Ground" H 1466 4101 50  0000 C CNN
-F 2 "library:TRRS_SMD_PJ320" H 1500 3850 50  0001 C CNN
-F 3 "~" H 1500 3850 50  0001 C CNN
-	1    1500 3850
-	1    0    0    -1  
-$EndComp
 Text GLabel 1700 2800 2    50   Input ~ 0
 3V3
 $Comp
@@ -162,15 +141,15 @@ F 3 "" H 1700 2500 50  0001 C CNN
 	1    1700 2500
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1700 2700 2    50   Input ~ 0
-SDA1
 Text GLabel 1700 2600 2    50   Input ~ 0
+SDA1
+Text GLabel 1700 2700 2    50   Input ~ 0
 SCL1
 Text GLabel 1700 4050 2    50   Input ~ 0
 3V3
-Text GLabel 1700 3950 2    50   Input ~ 0
-SDA2
 Text GLabel 1700 3850 2    50   Input ~ 0
+SDA2
+Text GLabel 1700 3950 2    50   Input ~ 0
 SCL2
 $Comp
 L power:GND #PWR03
@@ -183,4 +162,130 @@ F 3 "" H 1700 3750 50  0001 C CNN
 	1    1700 3750
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Connector:AudioJack4 J1
+U 1 1 5C162EB1
+P 1500 2600
+F 0 "J1" H 1455 2925 50  0000 C CNN
+F 1 "AudioJack4" H 1455 2834 50  0000 C CNN
+F 2 "library:TRRS_SMD_PJ320" H 1500 2600 50  0001 C CNN
+F 3 "~" H 1500 2600 50  0001 C CNN
+	1    1500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack4 J2
+U 1 1 5C162F8A
+P 1500 3850
+F 0 "J2" H 1455 4175 50  0000 C CNN
+F 1 "AudioJack4" H 1455 4084 50  0000 C CNN
+F 2 "library:TRRS_SMD_PJ320" H 1500 3850 50  0001 C CNN
+F 3 "~" H 1500 3850 50  0001 C CNN
+	1    1500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR09
+U 1 1 5C1630AE
+P 3800 2500
+F 0 "#PWR09" H 3800 2350 50  0001 C CNN
+F 1 "VCC" H 3817 2673 50  0000 C CNN
+F 2 "" H 3800 2500 50  0001 C CNN
+F 3 "" H 3800 2500 50  0001 C CNN
+	1    3800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5C1630EE
+P 3800 2650
+F 0 "R3" H 3870 2696 50  0000 L CNN
+F 1 "2.2 k" H 3870 2605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 2650 50  0001 C CNN
+F 3 "~" H 3800 2650 50  0001 C CNN
+	1    3800 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2800 3600 2800
+Text GLabel 3600 2800 1    50   Input ~ 0
+SCL1
+$Comp
+L power:VCC #PWR07
+U 1 1 5C1631FC
+P 2900 2500
+F 0 "#PWR07" H 2900 2350 50  0001 C CNN
+F 1 "VCC" H 2917 2673 50  0000 C CNN
+F 2 "" H 2900 2500 50  0001 C CNN
+F 3 "" H 2900 2500 50  0001 C CNN
+	1    2900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5C163202
+P 2900 2650
+F 0 "R1" H 2970 2696 50  0000 L CNN
+F 1 "2.2 k" H 2970 2605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2830 2650 50  0001 C CNN
+F 3 "~" H 2900 2650 50  0001 C CNN
+	1    2900 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2800 2700 2800
+Text GLabel 2700 2800 1    50   Input ~ 0
+SDA1
+$Comp
+L power:VCC #PWR010
+U 1 1 5C1632C1
+P 3800 3800
+F 0 "#PWR010" H 3800 3650 50  0001 C CNN
+F 1 "VCC" H 3817 3973 50  0000 C CNN
+F 2 "" H 3800 3800 50  0001 C CNN
+F 3 "" H 3800 3800 50  0001 C CNN
+	1    3800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5C1632C7
+P 3800 3950
+F 0 "R4" H 3870 3996 50  0000 L CNN
+F 1 "2.2 k" H 3870 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 3950 50  0001 C CNN
+F 3 "~" H 3800 3950 50  0001 C CNN
+	1    3800 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4100 3600 4100
+Text GLabel 3600 4100 1    50   Input ~ 0
+SCL2
+$Comp
+L power:VCC #PWR08
+U 1 1 5C1632CF
+P 2900 3800
+F 0 "#PWR08" H 2900 3650 50  0001 C CNN
+F 1 "VCC" H 2917 3973 50  0000 C CNN
+F 2 "" H 2900 3800 50  0001 C CNN
+F 3 "" H 2900 3800 50  0001 C CNN
+	1    2900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5C1632D5
+P 2900 3950
+F 0 "R2" H 2970 3996 50  0000 L CNN
+F 1 "2.2 k" H 2970 3905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2830 3950 50  0001 C CNN
+F 3 "~" H 2900 3950 50  0001 C CNN
+	1    2900 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4100 2700 4100
+Text GLabel 2700 4100 1    50   Input ~ 0
+SDA2
 $EndSCHEMATC
